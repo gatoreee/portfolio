@@ -1,40 +1,38 @@
+/* Header */
+.header-logo {
+  margin-top: 25px;
+}
+
+.banner {
+  width: 100%;
+}
+
+/* Content */
 body {
 	font-family: 'Lato', sans-serif;
 	color: #2d3c49;
 	font-weight: 300;
 }
+
 .text-muted {
 	color: #7d97ad;
 }
+
 .text-thin {
 	font-weight: 100;
 }
 
-.header-logo {
-	margin-top: 25px;
-}
-.banner {
-	width: 100%;
-}
-
-@media screen and (max-width: 375px) {
-
-    h1 {
-    	font-size: 45px;
-    }
-    h4 {
-    	font-size: 25px;
-    }
-}
-
+/* Responsive */
 @media screen and (max-width: 539px) {
 
     h1 {
     	font-size: 30px;
     }
+
     h4 {
     	font-size: 16px;
     }
+
    	.header-logo {
    		margin-top: 35px;
    	}
@@ -42,8 +40,9 @@ body {
 
 @media screen and (max-width: 767px) {
 
-   	.img-col, .banner-col {
-   		padding-left: 0px;
-   		padding-right: 0px;
+   	.img-col, 
+    .banner-col {
+   		padding-left: 0;
+   		padding-right: 0;
    	}
 }
